@@ -9,7 +9,7 @@ desktop: de 992px ate 1200px
 grandes telas: acima de 1200px
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 755px) and (max-width: 992px) {
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
@@ -27,6 +27,10 @@ grandes telas: acima de 1200px
     section#login > div#formulario{
         float: right;
         width: 70%;
+    }
+
+    div#formulario > p{
+        font-size: 0.9em;
     }
 }
 
@@ -48,5 +52,13 @@ grandes telas: acima de 1200px
     section#login > div#formulario{
         float: left;
         width: 50%;
+    }
+
+    div#formulario > h1{
+        font-size: 2em;
+    }
+
+    div#formulario > p{
+        font-size: 1em;
     }
 }
