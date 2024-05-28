@@ -83,11 +83,22 @@ div.campo > i{
     padding: 5px;
 }
 
-div.campo > input{
+div.campo > input#ilogin{
     background-color: #94cfcd;
     font-size: 1em;
     width: calc(100% - 44.4px);
     transform: translateY(-12px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+div.campo input#isenha{
+    background-color: #94cfcd;
+    font-size: 1em;
+    width: calc(100% - 44.4px);
+    transform: translateY(-11.2px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
